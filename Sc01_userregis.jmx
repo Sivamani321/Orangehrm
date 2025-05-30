@@ -42,7 +42,7 @@
       </CookieManager>
       <hashTree/>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="SC01_OrangeHrm_Usrregi">
-        <intProp name="ThreadGroup.num_threads">5</intProp>
+        <intProp name="ThreadGroup.num_threads">10</intProp>
         <intProp name="ThreadGroup.ramp_time">1</intProp>
         <longProp name="ThreadGroup.duration">10</longProp>
         <longProp name="ThreadGroup.delay">1</longProp>
@@ -3699,7 +3699,7 @@
         <stringProp name="ProxyControlGui.default_encoding">UTF-8</stringProp>
       </ProxyControl>
       <hashTree>
-        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree">
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
             <name>saveConfig</name>
